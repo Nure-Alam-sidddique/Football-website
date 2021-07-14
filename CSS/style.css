@@ -98,7 +98,39 @@ p {
   height: 154px;
 }
 /* Footer Design */
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 158px;
+}
 .footer-image img {
   width: 483.87px;
   height: 110px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 170px;
+  height: 32px;
+  display: flex;
+}
+.social-icon i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fab {
+  width: 32px;
+  height: 32px;
+  color: gray;
+  background: #eceef3;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-weight: 700;
+}
+.footer p {
+  text-align: center;
+  margin-top: 20px;
 }
