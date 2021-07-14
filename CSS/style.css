@@ -76,7 +76,7 @@ main {
   padding-bottom: 15px;
   padding-left: 15px;
   margin-bottom: 45px;
-  box-shadow: 1px 1px 5px wheat;
+  box-shadow: 1px 1px 5px rgba(236, 233, 228, 0.897);
 }
 .player-photo img {
   width: 300px;
@@ -133,4 +133,122 @@ p {
 .footer p {
   text-align: center;
   margin-top: 20px;
+}
+
+/* Responsibe for mobile */
+/* Banner Part */
+/* for Mobile divices */
+@media only screen and (max-width: 360px) {
+  main {
+    width: 360px;
+  }
+  .banner-section {
+    width: 100%;
+    height: 695px;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-heading {
+    width: 278px;
+    height: 138px;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: -100px;
+    margin-top: -120px;
+    margin-bottom: 30px;
+    line-height: 50px;
+  }
+  .banner-info {
+    margin-bottom: 273px;
+    margin-top: 225px;
+  }
+  .banner-info a {
+    width: 168px;
+    height: 44px;
+    margin-left: -99px;
+  }
+  .banner-photo img {
+    width: 329px;
+    height: 259.17px;
+    margin-left: 15px;
+    margin-top: -215px;
+  }
+  /* Players part */
+  .players-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .player {
+    margin-left: -117px;
+    margin-top: -14px;
+  }
+  /* Footer part */
+  .footer {
+    margin-top: 50px;
+  }
+  .footer-image img {
+    width: 327px;
+    margin-left: -15px;
+  }
+}
+/* ipads and Tablets  */
+@media only screen and (max-width: 768px) {
+  main {
+    width: 768px;
+  }
+  .players-container {
+    width: 768px;
+    margin-left: 143px;
+  }
+  .banner-section {
+    width: 100%;
+    height: 450px;
+  }
+  .banner {
+    display: flex;
+  }
+  .banner-heading {
+    width: 278px;
+    height: 138px;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: -100px;
+    margin-top: -120px;
+    margin-bottom: 30px;
+    line-height: 50px;
+  }
+  .banner-info {
+    margin-bottom: 273px;
+    margin-top: 225px;
+  }
+  .banner-info a {
+    width: 168px;
+    height: 44px;
+    margin-left: -96px;
+  }
+  .banner-photo img {
+    width: 360px;
+    height: 322.17px;
+    margin-left: 79px;
+    margin-top: 70px;
+  }
+  /* Players part */
+  .players-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .player {
+    margin-left: -117px;
+    margin-top: -14px;
+  }
+  /* Footer part */
+  .footer {
+    margin-top: 50px;
+  }
+  .footer-image img {
+    width: 327px;
+    margin-left: -15px;
+  }
 }
